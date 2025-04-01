@@ -1,4 +1,4 @@
-
+```
 .       - Any Character Except New Line
 \d      - Digit (0-9)
 \D      - Not a Digit (0-9)
@@ -29,8 +29,9 @@ Quantifiers:
 
 [a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
 
+```
 
-## Lazy vs. Greedy Matching ##
+## Lazy vs. Greedy Matching
 
-Greedy (*, +, ?, {m,n} by default) → Matches as much as possible.
-Lazy (*?, +?, ??, {m,n}?) → Matches as little as possible.
+Greedy (_, +, ?, {m,n} by default) → Matches as much as possible.
+Lazy (_?, +?, ??, {m,n}?) → Matches as little as possible.
