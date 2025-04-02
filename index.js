@@ -231,5 +231,20 @@ const text = "Its time to leave the planet!. 1 2 3 4 5 6 7 8 9";
 
   const hello = "   hello world   ";
   const regex3 = /(^\s*)|(\s*$)/;
-  console.log(hello.replace(regex3, ""))
+  // console.log(hello.replace(regex3, ""));
+}
+
+{
+  // email match
+  const regex = /[A-Za-z0-9-+._]+@[a-z-]+\.(com|edu|net)/;
+}
+
+{
+  // url match
+  const regex = /https?:\/\/[A-Za-z0-9+-_.]+\.[a-z]{2,}\S*/
+}
+
+{
+  // const regex = /I[t-z]*s/;
+  // console.log(text.match(regex));
 }

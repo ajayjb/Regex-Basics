@@ -35,3 +35,8 @@ Quantifiers:
 
 Greedy (_, +, ?, {m,n} by default) → Matches as much as possible.
 Lazy (_?, +?, ??, {m,n}?) → Matches as little as possible.
+
+## Lookahead
+
+Positive Lookahead ((?=...)) → Ensures that a pattern exists ahead.
+Negative Lookahead ((?!...)) → Ensures that a pattern does NOT exist ahead.
